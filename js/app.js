@@ -336,11 +336,6 @@
                 "type": "integer",
                 "description": "Identifier of the message",
                 "x-parser-schema-id": "<anonymous-schema-58>"
-              },
-              "duration": {
-                "type": "integer",
-                "description": "duration of the pin",
-                "x-parser-schema-id": "<anonymous-schema-59>"
               }
             },
             "x-parser-schema-id": "<anonymous-schema-56>"
@@ -386,15 +381,15 @@
               "messageId": {
                 "type": "integer",
                 "description": "Identifier of the message",
-                "x-parser-schema-id": "<anonymous-schema-64>"
+                "x-parser-schema-id": "<anonymous-schema-63>"
               },
               "chatId": {
                 "type": "integer",
                 "description": "Identifier of the message",
-                "x-parser-schema-id": "<anonymous-schema-65>"
+                "x-parser-schema-id": "<anonymous-schema-64>"
               }
             },
-            "x-parser-schema-id": "<anonymous-schema-63>"
+            "x-parser-schema-id": "<anonymous-schema-62>"
           },
           "x-parser-message-name": "<anonymous-message-8>"
         }
@@ -410,15 +405,15 @@
               "messageId": {
                 "type": "integer",
                 "description": "Identifier of the message",
-                "x-parser-schema-id": "<anonymous-schema-61>"
+                "x-parser-schema-id": "<anonymous-schema-60>"
               },
               "chatId": {
                 "type": "integer",
                 "description": "Identifier of the message",
-                "x-parser-schema-id": "<anonymous-schema-62>"
+                "x-parser-schema-id": "<anonymous-schema-61>"
               }
             },
-            "x-parser-schema-id": "<anonymous-schema-60>"
+            "x-parser-schema-id": "<anonymous-schema-59>"
           },
           "x-parser-message-name": "<anonymous-message-7>"
         }
@@ -441,16 +436,16 @@
                     "type": "integer",
                     "description": "Identifier of the message"
                   },
-                  "x-parser-schema-id": "<anonymous-schema-72>"
+                  "x-parser-schema-id": "<anonymous-schema-71>"
                 },
-                "x-parser-schema-id": "<anonymous-schema-71>"
+                "x-parser-schema-id": "<anonymous-schema-70>"
               },
               "chatId": {
                 "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-73>"
+                "x-parser-schema-id": "<anonymous-schema-72>"
               }
             },
-            "x-parser-schema-id": "<anonymous-schema-70>"
+            "x-parser-schema-id": "<anonymous-schema-69>"
           },
           "x-parser-message-name": "<anonymous-message-10>"
         }
@@ -468,16 +463,16 @@
                 "items": {
                   "type": "integer",
                   "description": "Identifier of the message",
-                  "x-parser-schema-id": "<anonymous-schema-68>"
+                  "x-parser-schema-id": "<anonymous-schema-67>"
                 },
-                "x-parser-schema-id": "<anonymous-schema-67>"
+                "x-parser-schema-id": "<anonymous-schema-66>"
               },
               "chatId": {
                 "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-69>"
+                "x-parser-schema-id": "<anonymous-schema-68>"
               }
             },
-            "x-parser-schema-id": "<anonymous-schema-66>"
+            "x-parser-schema-id": "<anonymous-schema-65>"
           },
           "x-parser-message-name": "<anonymous-message-9>"
         }
@@ -495,15 +490,15 @@
               "messageId": {
                 "type": "integer",
                 "description": "Identifier of the message",
-                "x-parser-schema-id": "<anonymous-schema-75>"
+                "x-parser-schema-id": "<anonymous-schema-74>"
               },
               "chatId": {
                 "type": "integer",
                 "description": "Identifier of the chat",
-                "x-parser-schema-id": "<anonymous-schema-76>"
+                "x-parser-schema-id": "<anonymous-schema-75>"
               }
             },
-            "x-parser-schema-id": "<anonymous-schema-74>"
+            "x-parser-schema-id": "<anonymous-schema-73>"
           },
           "x-parser-message-name": "<anonymous-message-11>"
         }
@@ -525,16 +520,16 @@
                     "type": "integer",
                     "description": "Identifier of the message"
                   },
-                  "x-parser-schema-id": "<anonymous-schema-86>"
+                  "x-parser-schema-id": "<anonymous-schema-85>"
                 },
-                "x-parser-schema-id": "<anonymous-schema-85>"
+                "x-parser-schema-id": "<anonymous-schema-84>"
               },
               "chatId": {
                 "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-87>"
+                "x-parser-schema-id": "<anonymous-schema-86>"
               }
             },
-            "x-parser-schema-id": "<anonymous-schema-84>"
+            "x-parser-schema-id": "<anonymous-schema-83>"
           },
           "x-parser-message-name": "<anonymous-message-13>"
         }
@@ -553,28 +548,28 @@
                     "type": "integer",
                     "description": "Identifier of the message"
                   },
-                  "x-parser-schema-id": "<anonymous-schema-79>"
+                  "x-parser-schema-id": "<anonymous-schema-78>"
                 },
-                "x-parser-schema-id": "<anonymous-schema-78>"
+                "x-parser-schema-id": "<anonymous-schema-77>"
               },
               "chatId": {
                 "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-80>"
+                "x-parser-schema-id": "<anonymous-schema-79>"
               },
               "userId": {
                 "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-81>"
+                "x-parser-schema-id": "<anonymous-schema-80>"
               },
               "userName": {
                 "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-82>"
+                "x-parser-schema-id": "<anonymous-schema-81>"
               },
               "profilePic": {
                 "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-83>"
+                "x-parser-schema-id": "<anonymous-schema-82>"
               }
             },
-            "x-parser-schema-id": "<anonymous-schema-77>"
+            "x-parser-schema-id": "<anonymous-schema-76>"
           },
           "x-parser-message-name": "<anonymous-message-12>"
         }
@@ -596,16 +591,16 @@
                     "type": "integer",
                     "description": "Identifier of the message"
                   },
-                  "x-parser-schema-id": "<anonymous-schema-97>"
+                  "x-parser-schema-id": "<anonymous-schema-96>"
                 },
-                "x-parser-schema-id": "<anonymous-schema-96>"
+                "x-parser-schema-id": "<anonymous-schema-95>"
               },
               "chatId": {
                 "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-98>"
+                "x-parser-schema-id": "<anonymous-schema-97>"
               }
             },
-            "x-parser-schema-id": "<anonymous-schema-95>"
+            "x-parser-schema-id": "<anonymous-schema-94>"
           },
           "x-parser-message-name": "<anonymous-message-15>"
         }
@@ -624,28 +619,28 @@
                     "type": "integer",
                     "description": "Identifier of the message"
                   },
-                  "x-parser-schema-id": "<anonymous-schema-90>"
+                  "x-parser-schema-id": "<anonymous-schema-89>"
                 },
-                "x-parser-schema-id": "<anonymous-schema-89>"
+                "x-parser-schema-id": "<anonymous-schema-88>"
               },
               "chatId": {
                 "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-91>"
+                "x-parser-schema-id": "<anonymous-schema-90>"
               },
               "userId": {
                 "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-92>"
+                "x-parser-schema-id": "<anonymous-schema-91>"
               },
               "userName": {
                 "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-93>"
+                "x-parser-schema-id": "<anonymous-schema-92>"
               },
               "profilePic": {
                 "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-94>"
+                "x-parser-schema-id": "<anonymous-schema-93>"
               }
             },
-            "x-parser-schema-id": "<anonymous-schema-88>"
+            "x-parser-schema-id": "<anonymous-schema-87>"
           },
           "x-parser-message-name": "<anonymous-message-14>"
         }
