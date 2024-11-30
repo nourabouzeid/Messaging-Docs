@@ -516,20 +516,18 @@
               "messages": {
                 "type": "array",
                 "items": {
-                  "messageId": {
-                    "type": "integer",
-                    "description": "Identifier of the message"
-                  },
-                  "x-parser-schema-id": "<anonymous-schema-85>"
+                  "type": "integer",
+                  "description": "Identifier of the message",
+                  "x-parser-schema-id": "<anonymous-schema-82>"
                 },
-                "x-parser-schema-id": "<anonymous-schema-84>"
+                "x-parser-schema-id": "<anonymous-schema-81>"
               },
               "chatId": {
                 "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-86>"
+                "x-parser-schema-id": "<anonymous-schema-83>"
               }
             },
-            "x-parser-schema-id": "<anonymous-schema-83>"
+            "x-parser-schema-id": "<anonymous-schema-80>"
           },
           "x-parser-message-name": "<anonymous-message-13>"
         }
@@ -541,13 +539,11 @@
           "payload": {
             "type": "object",
             "properties": {
-              "messages": {
+              "messageIds": {
                 "type": "array",
                 "items": {
-                  "messageId": {
-                    "type": "integer",
-                    "description": "Identifier of the message"
-                  },
+                  "type": "integer",
+                  "description": "Identifier of the message",
                   "x-parser-schema-id": "<anonymous-schema-78>"
                 },
                 "x-parser-schema-id": "<anonymous-schema-77>"
@@ -555,18 +551,6 @@
               "chatId": {
                 "type": "integer",
                 "x-parser-schema-id": "<anonymous-schema-79>"
-              },
-              "userId": {
-                "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-80>"
-              },
-              "userName": {
-                "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-81>"
-              },
-              "profilePic": {
-                "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-82>"
               }
             },
             "x-parser-schema-id": "<anonymous-schema-76>"
@@ -575,7 +559,27 @@
         }
       }
     },
-    "deliveredMessage": {
+    "readAllMessages": {
+      "description": "Channel for read messages.",
+      "subscribe": {
+        "operationId": "readAllMessages",
+        "message": {
+          "contentType": "application/json",
+          "payload": {
+            "type": "object",
+            "properties": {
+              "chatId": {
+                "type": "integer",
+                "x-parser-schema-id": "<anonymous-schema-85>"
+              }
+            },
+            "x-parser-schema-id": "<anonymous-schema-84>"
+          },
+          "x-parser-message-name": "<anonymous-message-14>"
+        }
+      }
+    },
+    "deliverMessage": {
       "description": "Channel for delivered messages.",
       "subscribe": {
         "operationId": "deliverMessage",
@@ -584,25 +588,18 @@
           "payload": {
             "type": "object",
             "properties": {
-              "messages": {
-                "type": "array",
-                "items": {
-                  "messageId": {
-                    "type": "integer",
-                    "description": "Identifier of the message"
-                  },
-                  "x-parser-schema-id": "<anonymous-schema-96>"
-                },
-                "x-parser-schema-id": "<anonymous-schema-95>"
+              "messageId": {
+                "type": "integer",
+                "x-parser-schema-id": "<anonymous-schema-91>"
               },
               "chatId": {
                 "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-97>"
+                "x-parser-schema-id": "<anonymous-schema-92>"
               }
             },
-            "x-parser-schema-id": "<anonymous-schema-94>"
+            "x-parser-schema-id": "<anonymous-schema-90>"
           },
-          "x-parser-message-name": "<anonymous-message-15>"
+          "x-parser-message-name": "<anonymous-message-16>"
         }
       },
       "publish": {
@@ -612,37 +609,23 @@
           "payload": {
             "type": "object",
             "properties": {
-              "messages": {
+              "messageIds": {
                 "type": "array",
                 "items": {
-                  "messageId": {
-                    "type": "integer",
-                    "description": "Identifier of the message"
-                  },
-                  "x-parser-schema-id": "<anonymous-schema-89>"
+                  "type": "integer",
+                  "description": "Identifier of the message",
+                  "x-parser-schema-id": "<anonymous-schema-88>"
                 },
-                "x-parser-schema-id": "<anonymous-schema-88>"
+                "x-parser-schema-id": "<anonymous-schema-87>"
               },
               "chatId": {
                 "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-90>"
-              },
-              "userId": {
-                "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-91>"
-              },
-              "userName": {
-                "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-92>"
-              },
-              "profilePic": {
-                "type": "integer",
-                "x-parser-schema-id": "<anonymous-schema-93>"
+                "x-parser-schema-id": "<anonymous-schema-89>"
               }
             },
-            "x-parser-schema-id": "<anonymous-schema-87>"
+            "x-parser-schema-id": "<anonymous-schema-86>"
           },
-          "x-parser-message-name": "<anonymous-message-14>"
+          "x-parser-message-name": "<anonymous-message-15>"
         }
       }
     }
